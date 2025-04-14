@@ -16,12 +16,10 @@ function reversalLinkedList(){
     var tmp:ListNode|null = current;
     while (current != null) {
         tmp = current.next;
-        current.next = pre;
 
+        current.next = pre;
         pre = current
-        // if(tmp == null) {
-        //     break;
-        // }
+
         current = tmp;
 
     }
@@ -49,9 +47,5 @@ function arrayToListNode():ListNode {
     }
 
     return header;
-
-
-    
-
 
 }
