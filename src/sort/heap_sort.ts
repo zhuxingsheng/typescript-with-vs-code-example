@@ -12,7 +12,6 @@ function heapSort(arr:number[]){
     }
     
 
-
 }
 
 /**
